@@ -1,12 +1,13 @@
-//var userEmail = prompt("Qual'è la tua e-mail?");
+function sendEmail() {
+  let permittedEmail = ["mail@1", "mail@2", "mail@3", "mail@4"];
 
-/*var permittedEmail = ["mail@1", "mail@2", "mail@3", "mail@4"];
-for (let counter = 1; counter < permittedEmail.length; counter++) {
-  let mailLIst = permittedEmail[counter];
+  let userEmail = document.getElementById("userEmail").value;
 
-  if (mailLIst == userEmail) {
-    alert("email approvata!");
-  } else {
-    alert("Riprova!");
+  for (let counter = 0; counter < permittedEmail.length; counter++) {
+    let mailLIst = permittedEmail[counter + 1];
+
+    if (userEmail == mailLIst) {
+      alert("welcome");
+    }
   }
 }
