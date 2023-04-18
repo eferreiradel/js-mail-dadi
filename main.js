@@ -1,6 +1,6 @@
-var userEmail = prompt("Qual'è la tua e-mail?");
+//var userEmail = prompt("Qual'è la tua e-mail?");
 
-var permittedEmail = ["mail@1", "mail@2", "mail@3", "mail@4"];
+/*var permittedEmail = ["mail@1", "mail@2", "mail@3", "mail@4"];
 for (let counter = 1; counter < permittedEmail.length; counter++) {
   let mailLIst = permittedEmail[counter];
 
