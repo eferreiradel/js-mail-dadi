@@ -1,3 +1,11 @@
 * {
-  /border: 1px solid black;
+  /* border: 1px solid black; */
+}
+
+body {
+  background-color: rgb(5, 78, 143);
+}
+
+.form-control::placeholder {
+  color: rgb(156, 156, 156);
 }
