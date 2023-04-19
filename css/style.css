@@ -1,7 +1,3 @@
 * {
-  /* border: 1px solid black; */
-}
-
-.form-control::placeholder {
-  color: rgb(156, 156, 156);
+  /border: 1px solid black;
 }
